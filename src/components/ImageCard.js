@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 
 class ImageCard extends React.Component {
     constructor (props) {
