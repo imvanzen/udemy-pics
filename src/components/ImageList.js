@@ -5,7 +5,7 @@ import ImageCard from './ImageCard'
 
 const ImageList = (props) => {
     const images = props.images.map(image => (
-        <ImageCard image={image} />
+        <ImageCard key={image.id} image={image} />
     ));
  
     return (
